@@ -1,0 +1,63 @@
+@font-face {
+    font-family: inter;
+    src: url(../misc/inter.ttf)
+}
+
+#header {
+    background-color:#97F9CA;
+    width:100%;
+    font-family:inter;
+}
+
+#buttons {
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    padding-left:20px;
+    font-size:16pt;
+}
+
+#buttons p:hover{
+  color:fuchsia;
+    
+}
+
+p {
+    margin-top:0;
+    margin-right: 20px;
+}
+
+#logocontainer {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+#logo {
+    float:left;
+    width: 50px;
+    height: 50px;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+#ArrayAppButtons, #VectorAppButtons, #ListAppButtons/*, #StackAppButtons*/
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    display:flex;
+    flex-direction:row;
+}
+
+#StackAppButtons
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+
+button {
+    margin-right:10px;
+}
